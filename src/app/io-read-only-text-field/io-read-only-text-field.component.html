@@ -1,0 +1,10 @@
+<TextField #textField
+           class="#textField"
+           [editable]="viewModel.editable"
+           [ngClass]="viewModel.ngClass"
+           [text]="viewModel.text"
+           [control]="control"
+           (focus)="on.focus()"
+           (tap)="on.tap()"
+           (loaded)="on.loaded($event)">
+</TextField>
